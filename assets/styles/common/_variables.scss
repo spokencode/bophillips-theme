@@ -5,5 +5,29 @@ $icon-font-path:        "../fonts/";
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
-// Colors
-$brand-primary:         #27ae60;
+$orange-base:              #d43d0b !default;
+$orange-darker:            lighten($orange-base, 13.5%) !default; // #222
+$orange-dark:              lighten($orange-base, 20%) !default;   // #333
+$orange:                   lighten($orange-base, 33.5%) !default; // #555
+$orange-light:             lighten($orange-base, 46.7%) !default; // #777
+$orange-lighter:           lighten($orange-base, 93.5%) !default; // #eee
+
+$nav-link-hover-bg: $orange-base;
+$navbar-default-link-color: #ffffff;
+
+// COLORS
+$brand-primary:         #ffffff;
+
+
+// FONTS 
+$font: 'Open Sans', sans-serif;
+$font-condensed: 'Open Sans Condensed', sans-serif;
+$font-headers: 'Oswald', sans-serif;
+
+// FOOTER
+$footer-bottom-background-color: #000000;
+$footer-bottom-link-color: #ffffff;
+
+
+// CONTENT BLOCKS
+$content-block-margin: 40px;

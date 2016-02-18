@@ -25,3 +25,12 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+add_post_type_support( 'post_type', 'woosidebars' );
+require_once('wp_bootstrap_navwalker.php');
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'Bo Phillips' ),
+) );
+
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );

@@ -1,12 +1,4 @@
-<?php get_template_part('templates/page', 'store-header'); ?>
-<div class="container">
-	<div class="col-md-3">
-<?php dynamic_sidebar('sidebar-primary'); ?>
-	</div>
-	<div class="col-md-9">
-		
-	
-<?php
+	<?php
 		/**
 		 * woocommerce_before_main_content hook
 		 *

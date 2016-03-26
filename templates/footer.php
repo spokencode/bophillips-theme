@@ -5,7 +5,7 @@
   <div id="footer-bottom">
     <div class="container">
       <div id="copyright" class="col-md-6">
-        ©2015 BoPhillips Company
+        ©<?php echo date("Y"); ?> BoPhillips Company
       </div>
       <div id="login" class="col-md-6">
         <?php wp_loginout(); ?>
